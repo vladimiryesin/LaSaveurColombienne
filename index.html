@@ -51,7 +51,7 @@
         </span>
       </a>
 
-      <nav class="site-nav" aria-label="Primary navigation">
+      <nav class="site-nav" aria-label="Navigation principale" data-i18n-aria-label="nav.label">
         <a href="#menu" data-i18n="nav.menu">Menu</a>
         <a href="#order" data-i18n="nav.order">Commander</a>
         <a href="#reserve" data-i18n="nav.reserve">Réserver</a>
@@ -64,6 +64,22 @@
         <i data-lucide="phone" aria-hidden="true"></i>
         <span data-i18n="nav.call">Appeler</span>
       </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Ouvrir le menu" data-menu-toggle>
+        <i data-lucide="menu" aria-hidden="true"></i>
+        <span class="sr-only" data-menu-toggle-label>Ouvrir le menu</span>
+      </button>
+
+      <div class="mobile-menu-panel" id="mobile-menu" data-mobile-menu hidden>
+        <nav class="mobile-nav" aria-label="Navigation mobile" data-i18n-aria-label="nav.mobileLabel">
+          <a href="#menu" data-i18n="nav.menu">Menu</a>
+          <a href="#order" data-i18n="nav.order">Commander</a>
+          <a href="#reserve" data-i18n="nav.reserve">Réserver</a>
+          <a href="#location" data-i18n="nav.visit">Visiter</a>
+        </nav>
+
+        <div class="mobile-language-switcher" role="group" aria-label="Choisir la langue" data-mobile-language-switcher></div>
+      </div>
     </header>
 
     <main id="main">

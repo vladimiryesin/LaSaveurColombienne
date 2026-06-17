@@ -9,11 +9,15 @@
   },
   "skip": "Saltar al contenido",
   "nav": {
+    "label": "Navegación principal",
+    "mobileLabel": "Navegación móvil",
     "menu": "Menú",
     "order": "Pedir",
     "reserve": "Reservar",
     "visit": "Visitar",
-    "call": "Llamar"
+    "call": "Llamar",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
   },
   "hero": {
     "eyebrow": "Sabor colombiano en Sainte-Rose",

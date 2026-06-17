@@ -11,6 +11,7 @@ const state = {
   locale: null,
   localeCode: null,
   menuFilter: "all",
+  mobileMenuOpen: false,
   initialHashHandled: false,
   localeCache: new Map()
 };
@@ -23,6 +24,10 @@ const dom = {
   dateInput: document.querySelector("[data-date-input]"),
   formStatus: document.querySelector("[data-form-status]"),
   languageSwitcher: document.querySelector("[data-language-switcher]"),
+  mobileLanguageSwitcher: document.querySelector("[data-mobile-language-switcher]"),
+  menuToggle: document.querySelector("[data-menu-toggle]"),
+  menuToggleLabel: document.querySelector("[data-menu-toggle-label]"),
+  mobileMenu: document.querySelector("[data-mobile-menu]"),
   menuFilters: document.querySelector("[data-menu-filters]"),
   menuContainer: document.querySelector("[data-full-menu]"),
   deliveryPlatforms: document.querySelector("[data-delivery-platforms]")
@@ -77,6 +82,28 @@ function bindEvents() {
   window.addEventListener("scroll", () => {
     dom.header?.classList.toggle("is-scrolled", window.scrollY > 8);
   }, { passive: true });
+
+  dom.menuToggle?.addEventListener("click", () => {
+    setMobileMenuOpen(!state.mobileMenuOpen);
+  });
+
+  dom.mobileMenu?.addEventListener("click", (event) => {
+    if (event.target instanceof Element && event.target.closest("a, button")) {
+      setMobileMenuOpen(false);
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      setMobileMenuOpen(false);
+    }
+  });
+
+  window.addEventListener("resize", () => {
+    if (window.matchMedia("(min-width: 701px)").matches) {
+      setMobileMenuOpen(false);
+    }
+  });
 
   dom.form?.addEventListener("submit", handleRequestSubmit);
 }
@@ -142,13 +169,19 @@ function applyTranslations() {
   document.querySelectorAll("[data-i18n-aria-label]").forEach((element) => {
     element.setAttribute("aria-label", t(element.dataset.i18nAriaLabel));
   });
+
+  updateMenuToggleLabel();
 }
 
 function renderLanguageSwitcher() {
-  if (!dom.languageSwitcher) return;
+  [dom.languageSwitcher, dom.mobileLanguageSwitcher]
+    .filter(Boolean)
+    .forEach(renderLanguageButtons);
+}
 
-  dom.languageSwitcher.setAttribute("aria-label", t("language.label"));
-  dom.languageSwitcher.replaceChildren(...state.config.locales.map((locale) => {
+function renderLanguageButtons(container) {
+  container.setAttribute("aria-label", t("language.label"));
+  container.replaceChildren(...state.config.locales.map((locale) => {
     const button = document.createElement("button");
     const isActive = locale.code === state.localeCode;
 
@@ -163,6 +196,35 @@ function renderLanguageSwitcher() {
 
     return button;
   }));
+}
+
+function setMobileMenuOpen(isOpen) {
+  state.mobileMenuOpen = Boolean(isOpen);
+
+  if (!dom.menuToggle || !dom.mobileMenu) return;
+
+  dom.header?.classList.toggle("is-menu-open", state.mobileMenuOpen);
+  dom.menuToggle.setAttribute("aria-expanded", String(state.mobileMenuOpen));
+  dom.mobileMenu.hidden = !state.mobileMenuOpen;
+
+  const icon = dom.menuToggle.querySelector("[data-lucide]");
+  icon?.setAttribute("data-lucide", state.mobileMenuOpen ? "x" : "menu");
+  updateMenuToggleLabel();
+
+  if (window.lucide) {
+    window.lucide.createIcons();
+  }
+}
+
+function updateMenuToggleLabel() {
+  if (!dom.menuToggle) return;
+
+  const label = t(state.mobileMenuOpen ? "nav.closeMenu" : "nav.openMenu");
+  dom.menuToggle.setAttribute("aria-label", label);
+
+  if (dom.menuToggleLabel) {
+    dom.menuToggleLabel.textContent = label;
+  }
 }
 
 function renderMenuFilters() {

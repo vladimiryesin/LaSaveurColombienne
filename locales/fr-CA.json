@@ -9,11 +9,15 @@
   },
   "skip": "Passer au contenu",
   "nav": {
+    "label": "Navigation principale",
+    "mobileLabel": "Navigation mobile",
     "menu": "Menu",
     "order": "Commander",
     "reserve": "Réserver",
     "visit": "Visiter",
-    "call": "Appeler"
+    "call": "Appeler",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
   },
   "hero": {
     "eyebrow": "Cuisine colombienne réconfortante à Sainte-Rose",

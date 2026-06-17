@@ -9,11 +9,15 @@
   },
   "skip": "Skip to content",
   "nav": {
+    "label": "Primary navigation",
+    "mobileLabel": "Mobile navigation",
     "menu": "Menu",
     "order": "Order",
     "reserve": "Reserve",
     "visit": "Visit",
-    "call": "Call"
+    "call": "Call",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "hero": {
     "eyebrow": "Colombian comfort food in Sainte-Rose",

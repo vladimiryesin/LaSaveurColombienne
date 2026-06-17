@@ -103,6 +103,10 @@ textarea {
   gap: 12px;
 }
 
+.brand span {
+  min-width: 0;
+}
+
 .brand img {
   width: 54px;
   height: 54px;
@@ -132,7 +136,10 @@ textarea {
 
 .site-nav a,
 .header-action,
-.language-switcher button {
+.menu-toggle,
+.language-switcher button,
+.mobile-nav a,
+.mobile-language-switcher button {
   min-height: 42px;
   padding: 10px 13px;
   border-radius: var(--radius);
@@ -142,11 +149,15 @@ textarea {
 
 .site-nav a:hover,
 .header-action:hover,
-.language-switcher button:hover {
+.menu-toggle:hover,
+.language-switcher button:hover,
+.mobile-nav a:hover,
+.mobile-language-switcher button:hover {
   background: var(--paper);
 }
 
-.language-switcher {
+.language-switcher,
+.mobile-language-switcher {
   display: inline-flex;
   gap: 4px;
   padding: 4px;
@@ -155,14 +166,16 @@ textarea {
   background: var(--white);
 }
 
-.language-switcher button {
+.language-switcher button,
+.mobile-language-switcher button {
   min-width: 44px;
   border: 0;
   background: transparent;
   cursor: pointer;
 }
 
-.language-switcher button.is-active {
+.language-switcher button.is-active,
+.mobile-language-switcher button.is-active {
   color: var(--white);
   background: var(--ink);
 }
@@ -170,6 +183,7 @@ textarea {
 .header-action {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
   color: var(--white);
   background: var(--red);
@@ -181,6 +195,7 @@ textarea {
 }
 
 .header-action svg,
+.menu-toggle svg,
 .button svg,
 .text-link svg,
 .quick-facts svg,
@@ -188,6 +203,22 @@ textarea {
   width: 18px;
   height: 18px;
   flex: 0 0 auto;
+}
+
+.menu-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  min-height: 48px;
+  padding: 0;
+  border: 1px solid var(--line);
+  background: var(--white);
+  cursor: pointer;
+}
+
+.mobile-menu-panel {
+  display: none;
 }
 
 .hero {
@@ -907,30 +938,54 @@ address {
 @media (max-width: 980px) {
   .site-header {
     grid-template-columns: minmax(0, 1fr) auto auto;
-    gap: 12px;
+    gap: 10px;
   }
 
-  .site-nav {
-    grid-column: 1 / -1;
-    grid-row: 2;
-    justify-content: space-between;
-    overflow-x: auto;
-    padding-top: 6px;
-    border-top: 1px solid var(--line);
+  .site-nav,
+  .language-switcher {
+    display: none;
   }
 
   .header-action {
-    grid-column: 3;
-    grid-row: 1;
-  }
-
-  .language-switcher {
     grid-column: 2;
     grid-row: 1;
   }
 
-  .site-nav a {
-    flex: 1 0 auto;
+  .menu-toggle {
+    grid-column: 3;
+    grid-row: 1;
+    display: inline-flex;
+  }
+
+  .site-header.is-menu-open .mobile-menu-panel {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    display: grid;
+    gap: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--line);
+  }
+
+  .mobile-nav {
+    display: grid;
+    gap: 6px;
+  }
+
+  .mobile-nav a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 10px 12px;
+    border: 1px solid var(--line);
+    background: var(--white);
+  }
+
+  .mobile-language-switcher {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .mobile-language-switcher button {
     text-align: center;
   }
 
@@ -957,10 +1012,11 @@ address {
 
 @media (max-width: 700px) {
   .section-band {
-    scroll-margin-top: 190px;
+    scroll-margin-top: 92px;
   }
 
   .site-header {
+    grid-template-columns: minmax(0, 1fr) 48px 48px;
     min-height: 68px;
     padding: 8px 14px;
   }
@@ -979,22 +1035,10 @@ address {
     font-size: 0.96rem;
   }
 
-  .language-switcher {
-    grid-column: 1 / -1;
-    grid-row: 2;
-    justify-content: stretch;
-  }
-
-  .language-switcher button {
-    flex: 1 1 0;
-  }
-
-  .site-nav {
-    grid-row: 3;
-  }
-
-  .header-action {
+  .header-action,
+  .menu-toggle {
     width: 48px;
+    height: 48px;
     min-height: 48px;
     padding: 0;
   }
@@ -1027,7 +1071,7 @@ address {
   }
 
   .delivery-panel {
-    scroll-margin-top: 190px;
+    scroll-margin-top: 92px;
     padding: 18px;
   }
 
