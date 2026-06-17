@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "La Saveur Colombienne | Colombian Restaurant in Sainte-Rose",
+    "description": "La Saveur Colombienne serves Colombian comfort food, pickup, delivery, table requests, and catering in Sainte-Rose, Laval."
+  },
+  "language": {
+    "label": "Choose language",
+    "active": "Active language"
+  },
+  "skip": "Skip to content",
+  "nav": {
+    "menu": "Menu",
+    "order": "Order",
+    "reserve": "Reserve",
+    "visit": "Visit",
+    "call": "Call"
+  },
+  "hero": {
+    "eyebrow": "Colombian comfort food in Sainte-Rose",
+    "copy": "Family-style Colombian classics, hearty soups, empanadas, lechona, and catering from the Maldonado family kitchen."
+  },
+  "cta": {
+    "order": "Order pickup or delivery",
+    "reserve": "Request a table"
+  },
+  "details": {
+    "address": "Address",
+    "phone": "Phone",
+    "today": "Today"
+  },
+  "open": {
+    "closed": "Closed",
+    "closedToday": "Closed today",
+    "openNow": "Open {range}",
+    "today": "Today, {range}"
+  },
+  "days": {
+    "sun": "Sunday",
+    "mon": "Monday",
+    "tue": "Tuesday",
+    "wed": "Wednesday",
+    "thu": "Thursday",
+    "fri": "Friday",
+    "sat": "Saturday"
+  },
+  "story": {
+    "kicker": "From Colombia to Laval",
+    "title": "Colombian cooking that feels generous from the first bite.",
+    "copy": "Come for golden empanadas, warming soups, lechona, cazuela, plantains, and family-style trays made for sharing at the table or taking home.",
+    "fact1": "Colombian specialties",
+    "fact2": "Pickup and delivery",
+    "fact3": "Catering friendly"
+  },
+  "menu": {
+    "kicker": "Full menu",
+    "title": "The restaurant's current full menu.",
+    "copy": "Dishes and prices scraped from La Saveur Colombienne's official ordering system.",
+    "fullLink": "Order delivery",
+    "all": "All",
+    "note": "Prices may change in the ordering system.",
+    "item": "{count} dish",
+    "items": "{count} dishes",
+    "filterLabel": "Filter menu"
+  },
+  "categories": {
+    "soups": "Soups",
+    "meats": "Meats",
+    "specialties": "House specialties",
+    "seafood": "Fish and seafood",
+    "kids": "Kids menu"
+  },
+  "order": {
+    "kicker": "Ordering and services",
+    "title": "Order, reserve, or plan the next celebration.",
+    "copy": "Choose pickup or delivery for today, call the restaurant, or send details for a table, family tray, or catered meal.",
+    "card1Title": "Pickup and delivery",
+    "card1Copy": "Choose DoorDash, SkipTheDishes, or Uber Eats to start a delivery order.",
+    "card1Link": "Choose a platform",
+    "card2Title": "Table requests",
+    "card2Copy": "Share your party size, date, time, and notes so the team can confirm availability.",
+    "card2Link": "Request a table",
+    "card3Title": "Catering",
+    "card3Copy": "Ask about trays and larger Colombian meals for birthdays, office lunches, and family events.",
+    "card3Link": "Plan catering"
+  },
+  "delivery": {
+    "kicker": "Delivery",
+    "title": "Order with your preferred platform.",
+    "copy": "Availability, fees, and delivery times are managed by each delivery service.",
+    "label": "Delivery platforms"
+  },
+  "reserve": {
+    "kicker": "Reserve or ask about catering",
+    "title": "A practical guest request flow.",
+    "copy": "Send the details guests usually share by phone, then confirm the request directly with the restaurant.",
+    "hoursTitle": "Hours"
+  },
+  "form": {
+    "name": "Name",
+    "phone": "Phone",
+    "date": "Date",
+    "time": "Time",
+    "guests": "Guests",
+    "type": "Request type",
+    "types": {
+      "table": "Table",
+      "catering": "Catering",
+      "largeOrder": "Large pickup order"
+    },
+    "notes": "Notes",
+    "notesPlaceholder": "Occasion, allergies, family tray details, or preferred language",
+    "submit": "Prepare request",
+    "missing": "Please complete the required fields.",
+    "statusPrefix": "{type} request for {guests} on {date} at {time}. ",
+    "statusCall": "Call ",
+    "statusSuffix": " to confirm with the restaurant."
+  },
+  "gallery": {
+    "kicker": "Photos",
+    "title": "The food tells the story.",
+    "link": "More guest photos"
+  },
+  "location": {
+    "kicker": "Visit",
+    "title": "Sainte-Rose location.",
+    "directions": "Directions"
+  },
+  "footer": {
+    "copy": "Colombian restaurant and catering in Sainte-Rose.",
+    "order": "Order delivery",
+    "google": "Google profile",
+    "call": "Call restaurant",
+    "note": "Concept redesign."
+  }
+}

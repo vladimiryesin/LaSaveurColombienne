@@ -58,11 +58,7 @@
         <a href="#location" data-i18n="nav.visit">Visiter</a>
       </nav>
 
-      <div class="language-switcher" role="group" aria-label="Choisir la langue">
-        <button type="button" class="is-active" data-lang="fr-CA" aria-pressed="true">FR</button>
-        <button type="button" data-lang="en" aria-pressed="false">EN</button>
-        <button type="button" data-lang="es-CO" aria-pressed="false">ES</button>
-      </div>
+      <div class="language-switcher" role="group" aria-label="Choisir la langue" data-language-switcher></div>
 
       <a class="header-action" href="tel:+14382562291">
         <i data-lucide="phone" aria-hidden="true"></i>
@@ -137,14 +133,7 @@
             </a>
           </div>
 
-          <div class="segmented-control menu-category-control" role="group" aria-label="Filtrer le menu">
-            <button type="button" class="is-active" data-menu-filter="all" aria-pressed="true" data-i18n="menu.all">Tout</button>
-            <button type="button" data-menu-filter="soups" aria-pressed="false">Soupes</button>
-            <button type="button" data-menu-filter="meats" aria-pressed="false">Viandes</button>
-            <button type="button" data-menu-filter="specialties" aria-pressed="false">Spécialités</button>
-            <button type="button" data-menu-filter="seafood" aria-pressed="false">Poissons</button>
-            <button type="button" data-menu-filter="kids" aria-pressed="false">Enfants</button>
-          </div>
+          <div class="segmented-control menu-category-control" role="group" aria-label="Filtrer le menu" data-i18n-aria-label="menu.filterLabel" data-menu-filters></div>
 
           <div class="full-menu-grid" data-full-menu></div>
           <p class="menu-note" data-i18n="menu.note">Les prix peuvent changer dans le système de commande.</p>
@@ -184,20 +173,7 @@
               <h3 id="delivery-title" data-i18n="delivery.title">Commander avec votre plateforme préférée.</h3>
               <p data-i18n="delivery.copy">Les disponibilités, frais et délais sont gérés par chaque service de livraison.</p>
             </div>
-            <div class="delivery-buttons" role="group" aria-label="Plateformes de livraison">
-              <a class="delivery-button doordash" href="https://www.doordash.com/search/store/La%20Saveur%20Colombienne%20Laval/" target="_blank" rel="noopener noreferrer">
-                <img src="assets/logos/doordash.svg" alt="" width="30" height="30">
-                <span>DoorDash</span>
-              </a>
-              <a class="delivery-button skip" href="https://skipthedishes.com/la-saveur-colombienne-37" target="_blank" rel="noopener noreferrer">
-                <img src="assets/logos/skipthedishes.svg" alt="" width="92" height="28">
-                <span class="sr-only">SkipTheDishes</span>
-              </a>
-              <a class="delivery-button uber" href="https://www.ubereats.com/ca-fr/store/saveur-colombienne/KFFd9l_6TnyzLgMX6d_3qA" target="_blank" rel="noopener noreferrer">
-                <img src="assets/logos/ubereats.svg" alt="" width="96" height="28">
-                <span class="sr-only">Uber Eats</span>
-              </a>
-            </div>
+            <div class="delivery-buttons" role="group" aria-label="Plateformes de livraison" data-i18n-aria-label="delivery.label" data-delivery-platforms></div>
           </section>
         </div>
       </section>
@@ -251,9 +227,9 @@
               <label>
                 <span data-i18n="form.type">Type de demande</span>
                 <select name="type">
-                  <option value="table" data-i18n="form.typeTable">Table</option>
-                  <option value="catering" data-i18n="form.typeCatering">Traiteur</option>
-                  <option value="largeOrder" data-i18n="form.typeLargeOrder">Grande commande à ramasser</option>
+                  <option value="table" data-i18n="form.types.table">Table</option>
+                  <option value="catering" data-i18n="form.types.catering">Traiteur</option>
+                  <option value="largeOrder" data-i18n="form.types.largeOrder">Grande commande à ramasser</option>
                 </select>
               </label>
             </div>

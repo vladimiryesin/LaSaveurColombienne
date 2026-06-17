@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "La Saveur Colombienne | Restaurante colombiano en Sainte-Rose",
+    "description": "La Saveur Colombienne ofrece comida colombiana, recogida, domicilio, reservas y catering en Sainte-Rose, Laval."
+  },
+  "language": {
+    "label": "Elegir idioma",
+    "active": "Idioma activo"
+  },
+  "skip": "Saltar al contenido",
+  "nav": {
+    "menu": "Menú",
+    "order": "Pedir",
+    "reserve": "Reservar",
+    "visit": "Visitar",
+    "call": "Llamar"
+  },
+  "hero": {
+    "eyebrow": "Sabor colombiano en Sainte-Rose",
+    "copy": "Clásicos colombianos para compartir, sopas bien generosas, empanadas, lechona y catering desde la cocina familiar Maldonado."
+  },
+  "cta": {
+    "order": "Pedir para recoger o domicilio",
+    "reserve": "Pedir una mesa"
+  },
+  "details": {
+    "address": "Dirección",
+    "phone": "Teléfono",
+    "today": "Hoy"
+  },
+  "open": {
+    "closed": "Cerrado",
+    "closedToday": "Cerrado hoy",
+    "openNow": "Abierto {range}",
+    "today": "Hoy, {range}"
+  },
+  "days": {
+    "sun": "Domingo",
+    "mon": "Lunes",
+    "tue": "Martes",
+    "wed": "Miércoles",
+    "thu": "Jueves",
+    "fri": "Viernes",
+    "sat": "Sábado"
+  },
+  "story": {
+    "kicker": "De Colombia a Laval",
+    "title": "Cocina colombiana generosa desde el primer bocado.",
+    "copy": "Ven por empanadas doraditas, sopas que reconfortan, lechona, cazuela, plátanos y platos familiares para compartir en mesa o llevar.",
+    "fact1": "Especialidades colombianas",
+    "fact2": "Recogida y domicilio",
+    "fact3": "Catering para eventos"
+  },
+  "menu": {
+    "kicker": "Menú completo",
+    "title": "El menú actual del restaurante.",
+    "copy": "Platos y precios tomados del sistema oficial de pedidos de La Saveur Colombienne.",
+    "fullLink": "Pedir domicilio",
+    "all": "Todo",
+    "note": "Los precios pueden cambiar en el sistema de pedidos.",
+    "item": "{count} plato",
+    "items": "{count} platos",
+    "filterLabel": "Filtrar menú"
+  },
+  "categories": {
+    "soups": "Sopas",
+    "meats": "Carnes",
+    "specialties": "Especialidades de la casa",
+    "seafood": "Pescados y mariscos",
+    "kids": "Menú infantil"
+  },
+  "order": {
+    "kicker": "Pedidos y servicios",
+    "title": "Pide, reserva o planea la próxima celebración.",
+    "copy": "Elige recogida o domicilio, llama al restaurante o envía detalles para una mesa, bandeja familiar o comida para evento.",
+    "card1Title": "Recogida y domicilio",
+    "card1Copy": "Escoge DoorDash, SkipTheDishes o Uber Eats para empezar un pedido a domicilio.",
+    "card1Link": "Escoger plataforma",
+    "card2Title": "Solicitudes de mesa",
+    "card2Copy": "Comparte cuántas personas vienen, fecha, hora y notas para que el equipo confirme disponibilidad.",
+    "card2Link": "Pedir una mesa",
+    "card3Title": "Catering",
+    "card3Copy": "Pregunta por bandejas y comidas colombianas grandes para cumpleaños, oficinas y reuniones familiares.",
+    "card3Link": "Planear catering"
+  },
+  "delivery": {
+    "kicker": "Domicilio",
+    "title": "Pide desde tu plataforma preferida.",
+    "copy": "La disponibilidad, tarifas y tiempos dependen de cada servicio de entrega.",
+    "label": "Plataformas de domicilio"
+  },
+  "reserve": {
+    "kicker": "Reservar o preguntar por catering",
+    "title": "Una solicitud sencilla antes de confirmar.",
+    "copy": "Envía los detalles que normalmente se dan por teléfono y confirma directamente con el restaurante.",
+    "hoursTitle": "Horario"
+  },
+  "form": {
+    "name": "Nombre",
+    "phone": "Teléfono",
+    "date": "Fecha",
+    "time": "Hora",
+    "guests": "Personas",
+    "type": "Tipo de solicitud",
+    "types": {
+      "table": "Mesa",
+      "catering": "Catering",
+      "largeOrder": "Pedido grande para recoger"
+    },
+    "notes": "Notas",
+    "notesPlaceholder": "Ocasión, alergias, detalles de bandeja familiar o idioma preferido",
+    "submit": "Preparar solicitud",
+    "missing": "Completa los campos obligatorios.",
+    "statusPrefix": "Solicitud de {type} para {guests} persona(s) el {date} a las {time}. ",
+    "statusCall": "Llama al ",
+    "statusSuffix": " para confirmar con el restaurante."
+  },
+  "gallery": {
+    "kicker": "Fotos",
+    "title": "La comida cuenta la historia.",
+    "link": "Más fotos de clientes"
+  },
+  "location": {
+    "kicker": "Visitar",
+    "title": "Sede de Sainte-Rose.",
+    "directions": "Cómo llegar"
+  },
+  "footer": {
+    "copy": "Restaurante colombiano y catering en Sainte-Rose.",
+    "order": "Pedir domicilio",
+    "google": "Perfil de Google",
+    "call": "Llamar al restaurante",
+    "note": "Rediseño conceptual."
+  }
+}

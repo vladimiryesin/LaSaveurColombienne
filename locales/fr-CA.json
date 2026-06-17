@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "La Saveur Colombienne | Restaurant colombien à Sainte-Rose",
+    "description": "La Saveur Colombienne sert des plats colombiens, le ramassage, la livraison, les demandes de table et le service traiteur à Sainte-Rose, Laval."
+  },
+  "language": {
+    "label": "Choisir la langue",
+    "active": "Langue active"
+  },
+  "skip": "Passer au contenu",
+  "nav": {
+    "menu": "Menu",
+    "order": "Commander",
+    "reserve": "Réserver",
+    "visit": "Visiter",
+    "call": "Appeler"
+  },
+  "hero": {
+    "eyebrow": "Cuisine colombienne réconfortante à Sainte-Rose",
+    "copy": "Classiques colombiens à partager, soupes généreuses, empanadas, lechona et service traiteur de la cuisine familiale Maldonado."
+  },
+  "cta": {
+    "order": "Commander ramassage ou livraison",
+    "reserve": "Demander une table"
+  },
+  "details": {
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "today": "Aujourd'hui"
+  },
+  "open": {
+    "closed": "Fermé",
+    "closedToday": "Fermé aujourd'hui",
+    "openNow": "Ouvert {range}",
+    "today": "Aujourd'hui, {range}"
+  },
+  "days": {
+    "sun": "Dimanche",
+    "mon": "Lundi",
+    "tue": "Mardi",
+    "wed": "Mercredi",
+    "thu": "Jeudi",
+    "fri": "Vendredi",
+    "sat": "Samedi"
+  },
+  "story": {
+    "kicker": "De la Colombie à Laval",
+    "title": "Une cuisine colombienne généreuse dès la première bouchée.",
+    "copy": "Venez pour les empanadas dorées, les soupes réconfortantes, la lechona, la cazuela, les plantains et les plats familiaux à partager sur place ou à emporter.",
+    "fact1": "Spécialités colombiennes",
+    "fact2": "Ramassage et livraison",
+    "fact3": "Service traiteur"
+  },
+  "menu": {
+    "kicker": "Menu complet",
+    "title": "Tout le menu actuel du restaurant.",
+    "copy": "Prix et plats récupérés du système de commande officiel de La Saveur Colombienne.",
+    "fullLink": "Commander en livraison",
+    "all": "Tout",
+    "note": "Les prix peuvent changer dans le système de commande.",
+    "item": "{count} plat",
+    "items": "{count} plats",
+    "filterLabel": "Filtrer le menu"
+  },
+  "categories": {
+    "soups": "Soupes",
+    "meats": "Viandes",
+    "specialties": "Spécialités",
+    "seafood": "Poissons et fruits de mer",
+    "kids": "Menu enfant"
+  },
+  "order": {
+    "kicker": "Commande et services",
+    "title": "Commandez, réservez ou préparez la prochaine fête.",
+    "copy": "Choisissez le ramassage ou la livraison, appelez le restaurant ou envoyez les détails d'une table, d'un plat familial ou d'un repas traiteur.",
+    "card1Title": "Ramassage et livraison",
+    "card1Copy": "Choisissez DoorDash, SkipTheDishes ou Uber Eats pour lancer une commande en livraison.",
+    "card1Link": "Choisir une plateforme",
+    "card2Title": "Demandes de table",
+    "card2Copy": "Partagez le nombre de personnes, la date, l'heure et vos notes afin que l'équipe confirme la disponibilité.",
+    "card2Link": "Demander une table",
+    "card3Title": "Service traiteur",
+    "card3Copy": "Demandez des plateaux et repas colombiens pour anniversaires, lunchs de bureau et événements familiaux.",
+    "card3Link": "Planifier un traiteur"
+  },
+  "delivery": {
+    "kicker": "Livraison",
+    "title": "Commander avec votre plateforme préférée.",
+    "copy": "Les disponibilités, frais et délais sont gérés par chaque service de livraison.",
+    "label": "Plateformes de livraison"
+  },
+  "reserve": {
+    "kicker": "Réserver ou demander le traiteur",
+    "title": "Une demande simple avant confirmation.",
+    "copy": "Envoyez les détails que les clients donnent normalement par téléphone, puis confirmez directement avec le restaurant.",
+    "hoursTitle": "Heures"
+  },
+  "form": {
+    "name": "Nom",
+    "phone": "Téléphone",
+    "date": "Date",
+    "time": "Heure",
+    "guests": "Personnes",
+    "type": "Type de demande",
+    "types": {
+      "table": "Table",
+      "catering": "Traiteur",
+      "largeOrder": "Grande commande à ramasser"
+    },
+    "notes": "Notes",
+    "notesPlaceholder": "Occasion, allergies, détails du plateau familial ou langue préférée",
+    "submit": "Préparer la demande",
+    "missing": "Veuillez remplir les champs requis.",
+    "statusPrefix": "Demande de {type} pour {guests} personne(s) le {date} à {time}. ",
+    "statusCall": "Appelez ",
+    "statusSuffix": " pour confirmer avec le restaurant."
+  },
+  "gallery": {
+    "kicker": "Photos",
+    "title": "Les plats racontent l'histoire.",
+    "link": "Plus de photos clients"
+  },
+  "location": {
+    "kicker": "Visiter",
+    "title": "Adresse de Sainte-Rose.",
+    "directions": "Itinéraire"
+  },
+  "footer": {
+    "copy": "Restaurant colombien et traiteur à Sainte-Rose.",
+    "order": "Commander en livraison",
+    "google": "Profil Google",
+    "call": "Appeler le restaurant",
+    "note": "Refonte conceptuelle."
+  }
+}

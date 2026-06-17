@@ -1,0 +1,201 @@
+{
+  "source": "Official ordering flow, scraped 2026-06-17",
+  "categories": [
+    {
+      "id": "soups",
+      "items": [
+        {
+          "name": "AJIACO SANTAFEREÑO",
+          "price": "$29.50",
+          "description": {
+            "fr-CA": "Soupe consistante aux trois sortes de pommes de terre et poulet, avec guasca, servie avec riz, avocat et cuisse de poulet.",
+            "en": "Hearty chicken and three-potato soup with guasca, served with rice, avocado, and chicken leg.",
+            "es-CO": "Servido con arroz, aguacate y pierna pernil de pollo."
+          }
+        }
+      ]
+    },
+    {
+      "id": "meats",
+      "items": [
+        {
+          "name": "SOBREBARRIGA EN SALSA",
+          "price": "$37.13",
+          "description": {
+            "fr-CA": "Bavette de boeuf en guiso criollo, servie avec pomme de terre, yuca, riz blanc et salade.",
+            "en": "Flank steak in criollo sauce, served with potato, yuca, white rice, and salad.",
+            "es-CO": "Servida con papa, yuca, arroz y ensalada."
+          }
+        },
+        {
+          "name": "LENGUA EN SALSA",
+          "price": "$29.25",
+          "description": {
+            "fr-CA": "Langue de boeuf en guiso criollo avec pois et carottes, servie avec pomme de terre, yuca et riz blanc.",
+            "en": "Beef tongue in criollo sauce with peas and carrots, served with potato, yuca, and white rice.",
+            "es-CO": "Servida con papa, yuca, arroz y ensalada."
+          }
+        },
+        {
+          "name": "CHULETA CALEÑA",
+          "price": "$32.40",
+          "description": {
+            "fr-CA": "Côtelette de porc panée, servie avec patacon, frites, riz blanc et salade.",
+            "en": "Breaded pork cutlet served with flattened green plantain, fries, white rice, and salad.",
+            "es-CO": "Servida con patacón, papa frita, arroz y ensalada."
+          }
+        },
+        {
+          "name": "1/2 CHULETA CALEÑA",
+          "price": "$23.48",
+          "description": {
+            "fr-CA": "Demi-portion de côtelette de porc panée avec patacon, frites, riz blanc et salade.",
+            "en": "Half portion of breaded pork cutlet with flattened green plantain, fries, white rice, and salad.",
+            "es-CO": "Media porción servida con patacón, papa frita, arroz y ensalada."
+          }
+        }
+      ]
+    },
+    {
+      "id": "specialties",
+      "items": [
+        {
+          "name": "LECHONA, CHICHARRON Y AREPA",
+          "price": "$18.33",
+          "description": {
+            "fr-CA": "Porc farci au riz, servi avec couenne croustillante et arepa.",
+            "en": "Rice-stuffed pork served with crispy pork skin and arepa.",
+            "es-CO": "Lechona de cerdo rellena de arroz, servida con cuerito y arepa."
+          }
+        },
+        {
+          "name": "CAZUELA DE FRIJOLES",
+          "price": "$28.73",
+          "description": {
+            "fr-CA": "Ragoût de haricots avec riz blanc, arepa, chorizo, chicharron, morcilla, plantain, avocat et oeuf.",
+            "en": "Bean stew with white rice, arepa, chorizo, pork belly, morcilla, plantain, avocado, and egg.",
+            "es-CO": "Con arroz, arepa, chorizo, chicharrón, morcilla, plátano, aguacate y huevo."
+          }
+        },
+        {
+          "name": "BISTEC A CABALLO CON AREPA, HUEVO Y PLATANO",
+          "price": "$31.88",
+          "description": {
+            "fr-CA": "Steak à la sauce colombienne avec plantain sucré, oeufs, arepa, chocolat chaud et fromage.",
+            "en": "Steak in Colombian sauce with sweet fried plantain, eggs, arepa, hot chocolate, and cheese.",
+            "es-CO": "Bistec en salsa colombiana con arepa, huevo, plátano, chocolate caliente y queso."
+          }
+        },
+        {
+          "name": "POUTINE COLOMBIENNE AVEC CHORIZO",
+          "price": "$23.48",
+          "description": {
+            "fr-CA": "Poutine au chorizo, inspiration colombienne.",
+            "en": "Chorizo poutine with Colombian-inspired flavors.",
+            "es-CO": "Poutine con chorizo y sabor colombiano."
+          }
+        },
+        {
+          "name": "CEVICHE DE CHICHARRON",
+          "price": "$25.58",
+          "description": {
+            "fr-CA": "Ceviche de flanc de porc avec oignons rouges et maïs, inspiration colombienne.",
+            "en": "Pork belly ceviche with red onions and corn, inspired by Colombian flavors.",
+            "es-CO": "Ceviche de chicharrón con cebolla roja y maíz, con sabor colombiano."
+          }
+        },
+        {
+          "name": "PICADA",
+          "price": "$27.15",
+          "description": {
+            "fr-CA": "Papa criolla, plantains, chorizo, porc, morcilla, empanadas, arepas et sauce aji.",
+            "en": "Papa criolla, plantains, chorizo, pork, morcilla, empanadas, arepas, and aji sauce.",
+            "es-CO": "Papa criolla, chorizo, morcilla, cerdo, plátano, empanadas, arepas y ají."
+          }
+        },
+        {
+          "name": "CHORI-AREPA",
+          "price": "$23.48",
+          "description": {
+            "fr-CA": "Arepa au chorizo, pain de maïs et frites.",
+            "en": "Chorizo arepa with corn arepa bread and fries.",
+            "es-CO": "Chori-arepa con pan de maíz y papas fritas."
+          }
+        },
+        {
+          "name": "CARNE EN BISTEC",
+          "price": "$36.60",
+          "description": {
+            "fr-CA": "",
+            "en": "",
+            "es-CO": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "seafood",
+      "items": [
+        {
+          "name": "PESCADO FRITO",
+          "price": "$33.98",
+          "description": {
+            "fr-CA": "Poisson frit servi avec frites, patacon, yuca et salade.",
+            "en": "Fried fish served with fries, flattened green plantain, yuca, and salad.",
+            "es-CO": "Acompañado de papa frita, patacón, yuca y ensalada."
+          }
+        },
+        {
+          "name": "CAZUELA DE MARISCOS",
+          "price": "$34.50",
+          "description": {
+            "fr-CA": "Ragoût de fruits de mer au lait de coco avec crevettes, calamars, crabe et moules, servi avec riz blanc.",
+            "en": "Seafood stew in coconut milk with shrimp, calamari, crab, and mussels, served with white rice.",
+            "es-CO": "Crema de coco con camarón, calamar, cangrejo, ostras y almejas; servida con arroz y patacón."
+          }
+        },
+        {
+          "name": "PAELLA VALENCIANA, ARROZ Y MARISCOS",
+          "price": "$34.50",
+          "description": {
+            "fr-CA": "Paella aux fruits de mer.",
+            "en": "Seafood paella.",
+            "es-CO": "Paella valenciana con arroz y mariscos."
+          }
+        }
+      ]
+    },
+    {
+      "id": "kids",
+      "items": [
+        {
+          "name": "1- BANDEJA FRIJOL, ARROZ Y CHORIZO",
+          "price": "$17.18",
+          "description": {
+            "fr-CA": "",
+            "en": "",
+            "es-CO": ""
+          }
+        },
+        {
+          "name": "2- MINI SOPA AJIACO - ARROZ & MAZORCA",
+          "price": "$17.18",
+          "description": {
+            "fr-CA": "",
+            "en": "",
+            "es-CO": ""
+          }
+        },
+        {
+          "name": "3- BANDEJA POLLO FRITO, ARROZ Y PAPA FRITA",
+          "price": "$17.18",
+          "description": {
+            "fr-CA": "",
+            "en": "",
+            "es-CO": ""
+          }
+        }
+      ]
+    }
+  ]
+}
